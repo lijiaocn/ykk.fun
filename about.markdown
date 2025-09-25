@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 关于本站
+title: About
 permalink: /about/
 ---
 
-这是个人网站，主要用于学习生活，不经常更新。
+这是我的独立赚钱笔记。
