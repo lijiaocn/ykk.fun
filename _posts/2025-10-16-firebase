@@ -1,0 +1,37 @@
+---
+layout: post
+title: "firebase 的基础用法"
+date: 2025-10-16 14:43
+last_modified_at: "2025-10-16 14:19:57 +0800"
+category: note
+---
+
+# 说明
+
+Google 推出的 Firebase 是一个后端即服务（BaaS）平台，提供了一系列工具和服务，提供了实时数据库、身份验证、云存储、托管、分析等功能。
+对于起步阶段的独立开发者来说，firebase 太香了，不仅能够快速完成开发，还有各种免费额度可用。
+
+## firebase 账号注册和项目创建
+
+## firebase 本地模拟器使用
+
+[Firebase Local Emulator Suite](https://firebase.google.com/docs/emulator-suite?hl=zh-cn)
+
+本地安装 firebase cli:
+
+```bash
+curl -sL firebase.tools | bash
+```
+
+初始化 firebase 项目:
+
+```bash
+firebase init
+```
+
+启动模拟起：
+
+```bash
+firebase emulators:start
+```
+
