@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {% if page.mysetting.noheader %}
+    {% else %}
+      {%- include header.html -%}
+    {% endif %}
+    <main class="page-content" aria-label="Content">
+      {% if page.mysetting.nowrapper %}
+        {{ content }}
+      {% else %}
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      {% endif %}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
