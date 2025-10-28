@@ -232,7 +232,6 @@
 .dead-pixel-landing p {
     line-height: 1.8;
     color: #555;
-    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -395,6 +394,33 @@
     padding-top: 30px;
     border-top: 1px solid #dee2e6;
     color: #6c757d;
+}
+
+/* Support Link Section */
+.support-link-section {
+    text-align: center;
+    margin: 40px 0 20px 0;
+    padding-top: 30px;
+    border-top: 1px solid #dee2e6;
+}
+
+.support-link {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.support-link:hover {
+    background: #007bff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
 }
 
 /* Responsive Design */

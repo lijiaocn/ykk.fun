@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Dead Pixel Test Tool - Detect Display Abnormalities on Your Mobile Screen"
+title:  "Dead Pixel Test Tool - For Your Mobile Screen"
 date:   2025-10-28 08:00:00 +0800
 mysetting:
   noheader: true
@@ -95,6 +95,10 @@ description: Dead Pixel Test Tool helps you detect dead pixels, bright spots, an
             <li><strong>Adjust Screen Brightness</strong>: Test at different brightness levels to ensure comprehensive detection</li>
             <li><strong>Compare Colors</strong>: Test with contrasting colors to make abnormalities more visible</li>
         </ul>
+    </div>
+    
+    <div class="support-link-section">
+        <p><a href="/app/dead-pixel-test/support" class="support-link">Need Help? Contact Support →</a></p>
     </div>
 </div>
 
