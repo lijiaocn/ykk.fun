@@ -6,6 +6,7 @@ mysetting:
   noheader: true
   nowrapper: true
   notitle: true
+permalink: /app/dead-pixel-test
 categories: [app]
 tags: [mobile, ios, screen test, display quality, dead pixel]
 keywords: dead pixel test, screen test, display test, mobile app, iOS
@@ -47,9 +48,10 @@ description: Dead Pixel Test Tool helps you detect dead pixels, bright spots, an
         </div>
     </div>
 
-    <div class="download-section">
+    <!-- 尚未发布 -->
+    <!-- <div class="download-section">
         <a href="#" class="download-button">Download from App Store</a>
-    </div>
+    </div> -->
     
     <h2>Common Display Issues</h2>
     
